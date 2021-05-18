@@ -60,6 +60,12 @@ header a {
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: rgb(4, 68, 124);
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .tkosmo a {
@@ -175,4 +181,83 @@ section article .about-text2 p {
   margin-top: -230px;
   margin-left: -200px;
   width: 1000px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.naslov {
+  color: rgb(4, 68, 124);
+  text-align: center;
+}
+
+.text {
+  color: rgb(4, 68, 124);
+  font-size: 20px;
+  text-align: center;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#projekti {
+  text-align: center;
+  color: rgb(4, 68, 124);
+}
+
+#red1 {
+  height: 300px;
+}
+
+#red2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#red3 {
+  font-size: 20px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: rgb(38, 64, 123);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(38, 64, 123);
+}
+
+.kontakt {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.desc {
+  padding-bottom: 50px;
 }
