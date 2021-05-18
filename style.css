@@ -60,6 +60,7 @@ header a{
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 0;
 }
 
 .tkosmo a {
@@ -101,10 +102,21 @@ header a{
 #projekti {
     text-align: center;
     color: rgb(4, 68, 124);
+}
+
+#red1 {
+    height: 300px;
+}
+
+#red2 {
     font-weight: bold;
     font-size: 20px;
 }
 
-#red {
-    height: 300px;
+#red3 {
+    font-size: 20px;
+}
+
+.desc {
+    padding-bottom: 50px;
 }
