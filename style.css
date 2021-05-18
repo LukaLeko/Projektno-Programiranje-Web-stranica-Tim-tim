@@ -53,3 +53,26 @@ header a{
 .text h1{
     font-size: 80px;
 }
+
+.tkosmo {
+    background-color: rgb(4, 68, 124);
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tkosmo a {
+    color: white;
+}
+
+.tkosmo a:hover {
+    color: white;
+}
+
+.tkosmo1 {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
