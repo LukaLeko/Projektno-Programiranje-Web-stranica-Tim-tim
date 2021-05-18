@@ -66,6 +66,11 @@ header a{
     color: white;
 }
 
+.tkosmo p {
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
 .tkosmo a:hover {
     color: white;
 }
@@ -75,9 +80,4 @@ header a{
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
-}
-
-footer {
-    text-align: center;
-    color: rgb(38, 64, 123);
 }
