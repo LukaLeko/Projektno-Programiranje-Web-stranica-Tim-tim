@@ -80,9 +80,21 @@ header a{
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .naslov {
     color: rgb(4, 68, 124);
     text-align: center;
+}
+
+.text {
+    color: rgb(4, 68, 124);
+    font-size: 20px;
+    text-align: center;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
 }
