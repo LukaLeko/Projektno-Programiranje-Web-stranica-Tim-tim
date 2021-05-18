@@ -26,6 +26,7 @@ header a{
 .crop {
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .crop img {
@@ -33,10 +34,22 @@ header a{
     margin: 0 0 -10% 0;
 }
 
-.crop div{
-    background-color: white;
-    opacity: 20%;
+.div{
+    background-color: rgba(255, 255, 255, 0.411);
     text-align: center;
-    margin-right: 0;
+    position: absolute;
+    right: 0px;
+    top: 0px;
     width: 50%;
+    height: 100%;
+}
+
+.text{
+    position: relative;
+    top: 45%;
+    color: rgb(38, 64, 123);
+}
+
+.text h1{
+    font-size: 80px;
 }
