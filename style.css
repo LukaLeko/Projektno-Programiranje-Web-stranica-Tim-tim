@@ -98,3 +98,13 @@ header a{
     margin-left: auto;
     margin-right: auto;
 }
+#projekti {
+    text-align: center;
+    color: rgb(4, 68, 124);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#red {
+    height: 300px;
+}
