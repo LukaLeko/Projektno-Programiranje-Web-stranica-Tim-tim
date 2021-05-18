@@ -76,3 +76,7 @@ header a{
     margin-right: auto;
     font-size: 20px;
 }
+
+footer {
+    text-align: center;
+    color: rgb(38, 64, 123);
