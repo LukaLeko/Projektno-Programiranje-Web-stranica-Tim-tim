@@ -81,3 +81,8 @@ header a{
     margin-right: auto;
     font-size: 20px;
 }
+
+.naslov {
+    color: rgb(4, 68, 124);
+    text-align: center;
+}
