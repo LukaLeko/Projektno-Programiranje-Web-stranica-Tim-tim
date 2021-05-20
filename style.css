@@ -90,21 +90,20 @@ header a {
   margin-bottom: 25px;
 }
 
-/* O našem timu */
+/* O našem timu 
 .aboutus .title {
   text-align: center;
   padding: 100px 0px;
-}
+} */
 .aboutus article .kolega-slika {
-  width: 100%;
   height: 300px;
   overflow: hidden;
 }
 .aboutus article .kolega-slika img {
-  margin-top: -600px;
-  margin-left: -200px;
-  width: 1000px;
+  margin-top: -300px;
+  width: 600px;
 }
+/*
 section article .about-text {
   background-color: rgb(4, 68, 124);
   text-align: left;
@@ -133,19 +132,17 @@ section article .about-text2 {
   max-width: 100%;
   height: 300px;
   padding: 20px 0px;
-}
-.aboutus article .kolega2-slika {
-  width: 100%;
-  height: 275px;
+} */
 
+.aboutus article .kolega2-slika {
+  height: 300px;
   overflow: hidden;
 }
 .aboutus article .kolega2-slika img {
-  margin-top: -230px;
-  margin-left: -200px;
-  width: 1000px;
+  margin-top: -45px;
+  width: 600px;
 }
-
+/*
 section article .about-text2 h3,
 section article .about-text2 p {
   margin-left: 10px;
@@ -161,29 +158,43 @@ section article .about-text2 p {
   padding: 0px 20px;
   margin-top: 20px;
   font-size: 20px;
-}
+}*/
 
 .aboutus article .kolega3-slika {
-  width: 100%;
-  height: 275px;
+  height: 300px;
   overflow: hidden;
 }
 .aboutus article .kolega3-slika img {
-  margin-top: -230px;
-  margin-left: -200px;
-  width: 1000px;
+  margin-top: -200px;
+  width: 600px;
 }
 
 .aboutus article .kolega4-slika {
-  width: 100%;
   height: 300px;
   overflow: hidden;
 }
 .aboutus article .kolega4-slika img {
-  margin-top: -230px;
-  margin-left: -200px;
-  width: 1000px;
+  margin-top: -140px;
+  width: 600px;
 }
+
+.aboutus article .kolega5-slika {
+  height: 300px;
+  overflow: hidden;
+}
+.aboutus article .kolega5-slika img {
+  margin-top: -300px;
+  width: 600px;
+}
+
+/*pocetak edit 
+
+.prvi {
+background-color: rgb(4, 68, 124);
+color: white;
+};
+
+/*kraj edit */
 
 .naslov {
   color: rgb(4, 68, 124);
