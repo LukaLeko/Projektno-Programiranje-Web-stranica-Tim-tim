@@ -187,14 +187,18 @@ section article .about-text2 p {
   width: 600px;
 }
 
-/*pocetak edit 
+.back {
+  background-color: rgb(4, 68, 124);
+  color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.prvi {
-background-color: rgb(4, 68, 124);
-color: white;
-};
-
-/*kraj edit */
+.back p, h3 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
 
 .naslov {
   color: rgb(4, 68, 124);
