@@ -100,6 +100,7 @@ header a {
   overflow: hidden;
 }
 .aboutus article .kolega-slika img {
+  margin-left: -12px;
   margin-top: -300px;
   width: 600px;
 }
@@ -137,8 +138,10 @@ section article .about-text2 {
 .aboutus article .kolega2-slika {
   height: 300px;
   overflow: hidden;
+  width: 583px;
 }
 .aboutus article .kolega2-slika img {
+  margin-left: -12px;
   margin-top: -45px;
   width: 600px;
 }
@@ -165,6 +168,7 @@ section article .about-text2 p {
   overflow: hidden;
 }
 .aboutus article .kolega3-slika img {
+  margin-left: -12px;
   margin-top: -200px;
   width: 600px;
 }
@@ -174,28 +178,32 @@ section article .about-text2 p {
   overflow: hidden;
 }
 .aboutus article .kolega4-slika img {
+  margin-left: -12px;
   margin-top: -140px;
   width: 600px;
 }
 
 .aboutus article .kolega5-slika {
-  height: 300px;
+  height: 350px;
   overflow: hidden;
 }
 .aboutus article .kolega5-slika img {
+  margin-left: -12px;
   margin-top: -300px;
-  width: 600px;
+  width: 620px;
 }
-
-.back {
+.about-text {
   background-color: rgb(4, 68, 124);
+}
+.back {
   color: white;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.back p, h3 {
+.back p,
+h3 {
   padding-top: 20px;
   padding-left: 20px;
 }
@@ -269,4 +277,7 @@ input[type="submit"]:hover {
 
 .desc {
   padding-bottom: 50px;
+}
+.row {
+  --bs-gutter-x: 0rem;
 }
