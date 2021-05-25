@@ -54,7 +54,9 @@ header a {
 .text h1 {
   font-size: 80px;
 }
-
+footer {
+  margin-top: 500px;
+}
 .tkosmo {
   background-color: rgb(4, 68, 124);
   text-align: center;
@@ -258,7 +260,6 @@ h3 {
 }
 
 #red2 {
-  font-weight: bold;
   font-size: 20px;
 }
 
@@ -307,4 +308,53 @@ input[type="submit"]:hover {
 }
 .row {
   --bs-gutter-x: 0rem;
+}
+@media (max-width: 767px) {
+  /* Index.html */
+  header {
+    margin-bottom: 20px;
+  }
+  .tkosmo1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .tkosmo1 p {
+    font-size: 15px;
+  }
+
+  .text h1 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 10px;
+  }
+  /* aboutus.html */
+
+  .cntrmb1 .MOB1 {
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+    margin: 10px 0px;
+  }
+
+  .cntrmb1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  /* Projects.html */
+  .text {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+  footer {
+    margin-top: 1500px;
+  }
 }

@@ -24,41 +24,6 @@
       href="https://www.tvz.hr/favicon.ico"
     />
     <title>Projects - Tim tim</title>
-    <style>
-      @media only screen and (max-width: 600px) {
-     
-       .text{ 
-         width: 100%;
-         margin-left: auto;
-         margin-right: auto;
-         font-size: 20px;
-       }
-   
-       .MOB1{
-       margin-top: 3px;
-       margin-bottom: 7px;
-     }
-   
-       header a {
-        color: rgb(38, 64, 123);
-       text-decoration: none;
-       border: 1px solid rgb(38, 64, 123);
-       padding: 5px;
-       border-radius: 50px;
-     }
-       .cntrmb1 {margin-left: auto;
-       margin-right: auto;
-       width: 50%;
-     }
-
-     /*Potrebno je prepraviti HTML te napraviti da su slika, naziv projekta, opis projekta i godina izvedbe projekta, jedan container, te ta tri containera samo floatati
-     u mobile layout inline CSS-u */
-   }
- </style>
-
-
-
-
   </head>
   <body>
     <header class="container-fluid">
@@ -95,68 +60,48 @@
     </div>
     <div class="container" id="projekti">
       <div class="row" id="red1">
-        <div class="col-sm">
+        <div class="col-sm-12 col-md-4">
           <img src="slike/pr1.jpg" width="80%" />
-        </div>
-        <div class="col-sm">
-          <img src="slike/pr2.png" height="55%" />
-        </div>
-        <div class="col-sm">
-          <img src="slike/pr3.jpg" width="80%" />
-        </div>
-      </div>
-      <div class="row" id="red2">
-        <div class="col-sm">
-          <p>3D modeliranje</p>
-        </div>
-        <div class="col-sm">
-          <p>Razvoj projekta</p>
-        </div>
-        <div class="col-sm">
-          <p>Dizajn mobilnih aplikacija</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm">
-          <p>
+          <h2>3D modeliranje</h2>
+          <p id="red2">
             Dizajniranje i modeliranje modela s naumom da je model kompatibilan
             za 3d printanje, animaciju te korištenje unutar engina za video
             igrice.
           </p>
-          <p>
+          <p id="red2">
             Također, model je isprintan, obojan i pušten u javni optok preko
             popularnih stranica za 3d printanje za cjenu od 8$.
           </p>
+          <p id="red3">2019.</p>
         </div>
-        <div class="col-sm">
-          <p>
+        <div class="col-md-4 col-sm-12">
+          <div>
+            <img src="slike/pr2.png" width="60%" />
+          </div>
+          <h2>Razvoj projekta</h2>
+          <p id="red2">
             Web stranica koja prikazuje sve auto oglase s
             raznih oglašivačkih stranica (Njuškalo, Plavi Oglasnik, Index
             oglasnik itd.) zbog lakšeg i efikasnijeg pronalaženja željenog auta.
           </p>
+          <p id="red3">2020.</p>
         </div>
-        <div class="col-sm">
-          <p>
+        <div class="col-md-4 col-sm-12">
+          <img src="slike/pr3.jpg" width="80%" />
+          <h2>Dizajn mobilnih aplikacija</h2>
+          <p id="red2">
             Društvena aplikacija dizajnirana kako bi olakšala pronalaženje i
             kuhanje recepata. Recepti bi bili kategorizirani po duljini
             potrebnoj za pripremu ili po tipu jela. Aplikacija bi omogućila
             korisniku pronalaženje svih namirnica potrebnih za recept u
             najbližoj trgovini te njihovu dostavu.
           </p>
-        </div>
-      </div>
-      <div class="row" id="red3">
-        <div class="col-sm">
-          <p>2019.</p>
-        </div>
-        <div class="col-sm">
-          <p>2020.</p>
-        </div>
-        <div class="col-sm">
-          <p>2021.</p>
+          <p id="red3">2021.</p>
         </div>
       </div>
     </div>
-    <p class="tkosmo">©2021 by Tim tim.</p>
+    <footer>
+      <p class="tkosmo">©2021 by Tim tim.</p>
+    </footer>
   </body>
 </html>
